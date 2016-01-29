@@ -8,7 +8,7 @@ $git clone https://github.com/alviahsan/cfn.git
 
 - Assuming you have aws cli setup 
 
-$aws cloudformation create-stack --stack-name testStack --template-body .cfn/cfn.template
+$aws cloudformation create-stack --stack-name testStack --template-body file:////home//cfn//cfn.template
 
 
 - Using Eclipse which is already setup with aws eclipse toolkit
